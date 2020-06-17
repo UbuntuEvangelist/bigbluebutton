@@ -21,7 +21,7 @@ source "http://rubygems.org"
 
 gem "redis"
 gem "nokogiri"
-gem "resque"
+gem "resque", ">= 1.25.2"
 gem "mime-types"
 gem "streamio-ffmpeg"
 gem "rubyzip"
