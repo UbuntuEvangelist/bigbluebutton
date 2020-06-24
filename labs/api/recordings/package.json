@@ -13,7 +13,7 @@
     "joi": "2.7.0",
     "coffee-script": "1.7.1",
     "js-sha1": "0.1.1",
-    "bunyan": "0.22.2",
+    "bunyan": "1.8.13",
     "json2xml": "0.1.1",
     "xml2json": "0.4.0",
     "easyxml": "0.0.5",
