@@ -20,7 +20,7 @@
 source "http://rubygems.org"
 
 gem "redis"
-gem "nokogiri"
+gem "nokogiri", ">= 1.11.4"
 gem "resque"
 gem "mime-types"
 gem "streamio-ffmpeg"
