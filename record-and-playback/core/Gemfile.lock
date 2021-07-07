@@ -1,11 +1,10 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.3.6)
+    absolute_time (1.0.0)
     builder (3.2.2)
     curb (0.8.6)
-    fastimage (1.6.4)
-      addressable (~> 2.3, >= 2.3.5)
+    fastimage (2.2.4)
     mime-types (2.4.3)
     mini_portile (0.6.1)
     mono_logger (1.1.0)
@@ -40,9 +39,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  absolute_time
   builder
   curb
-  fastimage
+  fastimage (>= 1.6.4)
   mime-types
   nokogiri
   open4
@@ -51,3 +51,6 @@ DEPENDENCIES
   rubyzip
   streamio-ffmpeg
   trollop
+
+BUNDLED WITH
+   2.1.4
